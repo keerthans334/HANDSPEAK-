@@ -1,7 +1,7 @@
 # HANDSPEAK-
 HANDSPEAK (Translating Signs , Transforming Lives)
 
-Problem Statement Description/Solution
+#Problem Statement Description/Solution
 Problem Statement :
 People with speech or hearing impairments often face significant challenges in communicating with those who do not understand sign language, leading to social isolation and reduced access to opportunities in both personal and professional context.  
 Solution :
@@ -12,7 +12,7 @@ Key Features:
 - A scalable system designed to accommodate more gestures over time.  
   
 
-Innovation and Novelty in the work:
+#Innovation and Novelty in the work:
 1. Integration of Real-Time Gesture Recognition with Offline TTS:
          - Utilized MediaPipe and Machine Learning to create a robust hand-gesture recognition model.
          - Enabled offline functionality using pyttsx3 for text-to-speech conversion, ensuring accessibility 
@@ -30,7 +30,7 @@ Innovation and Novelty in the work:
            - Focused on practical usage for people with speech disabilities, bridging the gap in effective 
               communication with simple and cost-effective methods
 
-libraries  and functionalities that are included in this..
+#libraries  and functionalities that are included in this..
 
 
  1. os
@@ -88,13 +88,13 @@ libraries  and functionalities that are included in this..
   - A robust machine learning model for classification tasks, using ensemble decision trees.
   - Provides high accuracy and handles complex data distributions.
 
- hardware componenets requirements..
+ #hardware componenets requirements..
  ![image](https://github.com/user-attachments/assets/f9b8d8b7-2d65-411c-8db1-500dade1e4a1)
 
  # what is the order to  run the project.
      # first you need to install these packages in your local system to make it run in vs code terminal
      libraries packages..
-     pip install mediapipe,tensorflow,opencv,numpy,pickle,
+     pip install mediapipe,tensorflow,opencv,numpy,pickle,os,pyttsx3
  1. first run the landmark_detection.py to gather the landmark of your hand
  2. run the train.py to train the model using 50 images using tensor flow lite + open cv
  3. run the real_time_recognition.py to reconize the hand gestures
