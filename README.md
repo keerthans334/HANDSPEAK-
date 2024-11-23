@@ -12,7 +12,7 @@ Key Features:
 - A scalable system designed to accommodate more gestures over time.  
   
 
-#Innovation and Novelty in the work:
+# Innovation and Novelty in the work:
 1. Integration of Real-Time Gesture Recognition with Offline TTS:
          - Utilized MediaPipe and Machine Learning to create a robust hand-gesture recognition model.
          - Enabled offline functionality using pyttsx3 for text-to-speech conversion, ensuring accessibility 
@@ -30,7 +30,10 @@ Key Features:
            - Focused on practical usage for people with speech disabilities, bridging the gap in effective 
               communication with simple and cost-effective methods
 
-#libraries  and functionalities that are included in this..
+# custom gesture images that are Trained..
+![image](https://github.com/user-attachments/assets/6740d16a-cdf0-4115-9d77-1a7304818b5d)
+
+# libraries  and functionalities that are included in this..
 
 
  1. os
@@ -88,7 +91,7 @@ Key Features:
   - A robust machine learning model for classification tasks, using ensemble decision trees.
   - Provides high accuracy and handles complex data distributions.
 
- #hardware componenets requirements..
+ # hardware componenets requirements..
  ![image](https://github.com/user-attachments/assets/f9b8d8b7-2d65-411c-8db1-500dade1e4a1)
 
  # what is the order to  run the project.
@@ -98,6 +101,25 @@ Key Features:
  1. first run the landmark_detection.py to gather the landmark of your hand
  2. run the train.py to train the model using 50 images using tensor flow lite + open cv
  3. run the real_time_recognition.py to reconize the hand gestures
+
+# the final output..
+![Hi_how_are_you_24](https://github.com/user-attachments/assets/0c54de3e-3117-4665-91ae-75314c115f61)  Hi_how_are_you
+![Bye _8](https://github.com/user-attachments/assets/37962ce7-b72f-42db-9e17-23936dd1edcc) BYE
+![Hey_can_you_please_help_me_32](https://github.com/user-attachments/assets/5cc3e114-3002-429a-b64e-fc2331aa56d2) Hey_can_you_please_help_me
+![Hey_good_job!_11](https://github.com/user-attachments/assets/416b8b38-9e6e-4f65-876b-9916e4a4f5df) Hey_good_job!
+![Hey_I_need_some_water _6](https://github.com/user-attachments/assets/c39731dc-db8f-4b7c-9022-1e4debcd93ae) Hey_I_need_some_water
+![I_love_you _0](https://github.com/user-attachments/assets/e50fb341-5b4d-45d4-87ef-4f5fb129747c) I_love_you.
+![What_is_your_name_16](https://github.com/user-attachments/assets/514e539a-a462-410f-b931-f6596a12db5a) What_is_your_name
+![Yes_I_agree _0](https://github.com/user-attachments/assets/b4b51630-5faa-4ddc-8b85-5a962fd9ad25) Yes_I_agree
+
+
+
+
+
+
+
+
+
 
 
 
